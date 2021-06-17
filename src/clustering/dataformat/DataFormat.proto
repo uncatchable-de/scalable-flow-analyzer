@@ -1,0 +1,50 @@
+syntax = "proto3";
+package dataformat;
+
+
+message Distribution {
+    int64 min = 1;
+    int64 max = 2;
+    double mean = 3;
+    double std_dev = 4;
+}
+
+message RRP {
+    int64 request_size = 1;
+    int64 response_size = 2;
+}
+
+message RRPs {
+    repeated RRP rrps = 1;
+}
+
+message Flow {
+    uint64 server_address = 1;
+    int64 num_rrp = 2;
+    Distribution inter_req = 3;
+}
+
+message Flows {
+    repeated Flow flows = 1;
+}
+
+message Session {
+    uint64 client_address = 1;
+    int64 num_servers = 2;
+    int64 num_flows = 3;
+    Distribution inter_flow = 4;
+}
+
+message Sessions {
+    repeated Session sessions = 1;
+}
+
+message User {
+    uint64 client_address = 1;
+    int64 num_sessions = 2;
+    Distribution inter_session = 3;
+}
+
+message Users {
+    repeated User users = 1;
+}
