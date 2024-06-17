@@ -1,11 +1,11 @@
 package standard
 
 import (
-	"analysis/flows"
-	"analysis/metrics/common"
-	"analysis/utils"
-	"clustering/clustering"
-	"clustering/dataformat"
+	"scalable-flow-analyzer/flows"
+	"scalable-flow-analyzer/metrics/common"
+	"scalable-flow-analyzer/utils"
+	"scalable-flow-analyzer/clustering"
+	"scalable-flow-analyzer/dataformat"
 	"log"
 	"path"
 	"sync"

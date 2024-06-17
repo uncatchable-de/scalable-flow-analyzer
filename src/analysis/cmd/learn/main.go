@@ -1,8 +1,8 @@
 package main
 
 import (
-	"analysis/utils"
-	"clustering/clustering"
+	"scalable-flow-analyzer/utils"
+	"scalable-flow-analyzer/clustering"
 	"flag"
 	"fmt"
 	"io/ioutil"

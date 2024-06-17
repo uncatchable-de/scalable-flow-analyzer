@@ -1,13 +1,13 @@
 package main
 
 import (
-	"analysis/flows"
-	flowMetrics "analysis/metrics/flows"
-	standardMetrics "analysis/metrics/standard"
-	"analysis/parser"
-	"analysis/pool"
-	"analysis/reader"
-	"analysis/utils"
+	"scalable-flow-analyzer/flows"
+	flowMetrics "scalable-flow-analyzer/metrics/flows"
+	standardMetrics "scalable-flow-analyzer/metrics/standard"
+	"scalable-flow-analyzer/parser"
+	"scalable-flow-analyzer/pool"
+	"scalable-flow-analyzer/reader"
+	"scalable-flow-analyzer/utils"
 	"github.com/dustin/go-humanize"
 	"github.com/google/gopacket/pcap"
 

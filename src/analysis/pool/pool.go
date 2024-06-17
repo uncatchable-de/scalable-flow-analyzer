@@ -4,8 +4,8 @@ package pool
 // This file is internal only, other components use pools.
 
 import (
-	"analysis/flows"
-	"analysis/metrics"
+	"scalable-flow-analyzer/flows"
+	"scalable-flow-analyzer/metrics"
 	"sync"
 )
 

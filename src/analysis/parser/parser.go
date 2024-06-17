@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"analysis/flows"
-	"analysis/pool"
+	"scalable-flow-analyzer/flows"
+	"scalable-flow-analyzer/pool"
 	"encoding/binary"
 	"fmt"
 	"math"

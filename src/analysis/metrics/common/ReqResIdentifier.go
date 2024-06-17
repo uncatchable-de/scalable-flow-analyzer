@@ -4,8 +4,8 @@ package common
 // Also responsible for reconstructing flows.
 
 import (
-	"analysis/flows"
-	"analysis/utils"
+	"scalable-flow-analyzer/flows"
+	"scalable-flow-analyzer/utils"
 	"fmt"
 )
 

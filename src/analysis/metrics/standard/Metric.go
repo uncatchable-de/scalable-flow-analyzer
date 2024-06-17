@@ -5,8 +5,8 @@ package standard
 // The Pool will only flush Flows (connections). Based on these, sessions and request/responses are extracted by this package.
 
 import (
-	"analysis/flows"
-	"analysis/metrics/common"
+	"scalable-flow-analyzer/flows"
+	"scalable-flow-analyzer/metrics/common"
 	"sync"
 )
 

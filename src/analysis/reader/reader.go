@@ -1,9 +1,9 @@
 package reader
 
 import (
-	"analysis/parser"
-	"analysis/pool"
-	"analysis/utils"
+	"scalable-flow-analyzer/parser"
+	"scalable-flow-analyzer/pool"
+	"scalable-flow-analyzer/utils"
 	"fmt"
 	"github.com/dustin/go-humanize"
 	"github.com/google/gopacket"
