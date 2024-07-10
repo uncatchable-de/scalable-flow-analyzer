@@ -1,7 +1,7 @@
 package flows
 
 import (
-	"analysis/flows"
+	"scalable-flow-analyzer/flows"
 )
 
 type MetricFlowDuration struct{}

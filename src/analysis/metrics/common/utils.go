@@ -1,7 +1,7 @@
 package common
 
 import (
-	"analysis/flows"
+	"scalable-flow-analyzer/flows"
 	"encoding/binary"
 	"log"
 	"strconv"

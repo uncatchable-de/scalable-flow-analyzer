@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"analysis/flows"
+	"scalable-flow-analyzer/flows"
 )
 
 type Metric interface {

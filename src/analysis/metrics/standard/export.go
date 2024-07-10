@@ -1,7 +1,7 @@
 package standard
 
 import (
-	"analysis/metrics/common"
+	"scalable-flow-analyzer/metrics/common"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"

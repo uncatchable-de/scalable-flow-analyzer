@@ -3,8 +3,8 @@ package pool
 // This file manages multiple pools, distributes data.
 
 import (
-	"analysis/flows"
-	"analysis/metrics"
+	"scalable-flow-analyzer/flows"
+	"scalable-flow-analyzer/metrics"
 	"fmt"
 	"sync"
 

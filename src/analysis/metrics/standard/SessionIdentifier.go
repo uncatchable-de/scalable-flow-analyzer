@@ -3,8 +3,8 @@ package standard
 // Analyzes Flows to identify sessions.
 
 import (
-	"analysis/flows"
-	"analysis/metrics/common"
+	"scalable-flow-analyzer/flows"
+	"scalable-flow-analyzer/metrics/common"
 	"fmt"
 	"sort"
 	"sync"

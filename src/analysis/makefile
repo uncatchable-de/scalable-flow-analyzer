@@ -1,5 +1,5 @@
  # Go parameters
-GOCMD=/usr/local/go/bin/go
+GOCMD=go
 GOBUILD=$(GOCMD) build
 GOCLEAN=$(GOCMD) clean
 GOGET=$(GOCMD) get
@@ -21,6 +21,8 @@ build:
 test: 
 	echo "Tests are currently disabled"
 	#$(GOTEST) -v ./...
+learn:
+	$(GOBUILD) -o learn cmd/learn/main.go
 clean: 
 	$(GOCLEAN)
 	rm -f $(BINARY_NAME)

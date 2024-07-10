@@ -1,7 +1,7 @@
 package clustering
 
 import (
-	"clustering/dataformat"
+	"scalable-flow-analyzer/dataformat"
 	"math"
 )
 
